@@ -1,0 +1,19 @@
+name: "<++>"
+author: "arch-err"
+category: "<++>"
+description: "<++>"
+difficulty: 5 # 1-10
+attribution: Created by [arch-err](https://github.com/arch-err/)
+
+topics:
+    - <++>
+
+files:
+    - <++>
+
+flags:
+    - {
+        type: "static",
+        content: "<++>",
+        data: "case_insensitive",
+    }
