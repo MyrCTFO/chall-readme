@@ -1,19 +1,21 @@
-name: "<++>"
+name: "README"
 author: "arch-err"
-category: "<++>"
+category: "forensics"
 description: "<++>"
-difficulty: 5 # 1-10
+difficulty: 2 # 1-10
 attribution: Created by [arch-err](https://github.com/arch-err/)
 
 topics:
-    - <++>
+    - file-types
+    - forensics
+    - warmup
 
 files:
-    - <++>
+    - malwarehackercode.7z
 
 flags:
     - {
         type: "static",
-        content: "<++>",
+        content: "MyrCTF{you_can_use_any_format_for_readmes_not_just_txt}",
         data: "case_insensitive",
     }
