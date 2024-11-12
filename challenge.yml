@@ -2,7 +2,7 @@ name: "README"
 author: "arch-err"
 category: "forensics"
 description: "<++>"
-difficulty: 2 # 1-10
+difficulty: 2  # 1-10
 attribution: Created by [arch-err](https://github.com/arch-err/)
 
 topics:

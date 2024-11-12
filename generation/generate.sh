@@ -26,11 +26,13 @@ popd
 FLAG_PART="ou_can_use"
 cp input/README_without_flag.png output/README.png
 exiftool -author="${FLAG_PART}" output/README.png
+rm output/README.png_original
 
 
 # Init
-mkdir malwarehackercode
-cd malwarehackercode
+dir=malwarehackercode
+mkdir $dir
+cd $dir
 git init
 
 
@@ -43,9 +45,11 @@ git commit -m "Upload file code.py" --date="Mon Apr 24 15:03:57 2024 +0200"
 
 cp ../README.* ./
 cp ../output/* ./
+cp ../code.py ./
 git add --all
 git commit -m "malwar +readme" --date="Fri May 5 09:48:06 2024 +0200"
 
 
 cd ..
-7z a $dir.7z $dir
+pwd
+7z a -r $dir.7z $dir
