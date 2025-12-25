@@ -1,21 +1,17 @@
-name: "README"
-author: "arch-err"
-category: "forensics"
+title: "README"
 description: "https://www.reddit.com/r/ProgrammerHumor/s/rn8WhUoPMX"
-difficulty: 2  # 1-10
-attribution: Created by [arch-err](https://github.com/arch-err/)
+authors:
+  - arch-err
+categories:
+  - Warmup
+  - File-Types
+  - Forensics
 
-topics:
-    - file-types
-    - forensics
-    - warmup
+flag_format_prefix: MyrCTF{
+flags: you_can_use_any_format_for_readmes_not_just_txt
 
-files:
-    - malwarehackercode.7z
+downloadable_files:
+  - malwarehackercode.7z
 
-flags:
-    - {
-        type: "static",
-        content: "MyrCTF{you_can_use_any_format_for_readmes_not_just_txt}",
-        data: "case_insensitive",
-    }
+challenge_id: __ID__
+spec: 0.0.1

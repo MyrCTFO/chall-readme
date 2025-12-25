@@ -1,17 +1,29 @@
-# README
-##### README
+# How to generate this challenge
+1. <++>
+2. `<++>`
+3. `generate.sh`
 
-# Code
-this is my cool malwar script!!
+## How it was created
+1. Code and README.txt was written by hand
+2. [TTS](https://ttsmp3.com/) to generate sound for README.mp3 and mp4
+3. Create word document, add flag part 4 in manually
 
-# Description
-description of my malware code arcitecture is this:
+4. Split flag into 5 parts:
+ - [x] `MyrCTF{y`
+ - [x] `ou_can_use`
+ - [x] `_any_format_`
+ - [x] `for_readmes_n`
+ - [ ] `ot_just_txt}`
 
-```
-incridibel h4xxer l33t ransomwar
-way in workings:
- - sTep 1: encrypt data
-- step two: send data to C2 SERVER
- - step 4: crate backdor (or as i likes to call it, hackdoor >:D )
- - step 5 - remova traces and be invicible/anonymos
-```
+
+
+
+# Script
+
+## Dependencies
+- `yq`
+- `<++>`
+- `<++>`
+
+## Execution
+`generate.sh`
